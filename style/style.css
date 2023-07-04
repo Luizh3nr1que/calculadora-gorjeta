@@ -26,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
+    font-weight: 400;
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(28, 28, 28);
@@ -42,17 +43,29 @@ body {
 }
 
 #valor {
+    height: 35px;
     outline: none;
     padding: 1px 0px 1px 10px;
     border-radius: 5px;
     border: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+#valor::placeholder {
+    color: white;
 }
 
 #porcentagem {
     outline: none;
     border: none;
+    height: 35px;
     padding: 1px 0px 1px 10px;
     border-radius: 5px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+
+
 }
 
 .quantidade {

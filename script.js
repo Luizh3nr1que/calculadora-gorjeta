@@ -1,13 +1,19 @@
 function calcular() {
-    const inputValor = document.querySelector('#valor').value;
-    const inputPorcentagem = document.querySelector('#porcentagem').value;
-    const resultado = document.querySelector('#resultado');
+    const inputValor = document.querySelector('#valor');
 
-    const valorResultado = inputValor * inputPorcentagem;
+    if (inputValor.length == null) {
+        const resultado = document.querySelector('#resultado').innerHTML = 'NaN';
+    } else {
 
-    resultado.innerHTML = `${valorResultado.toFixed(2)}`;
+        const inputValor = document.querySelector('#valor').value;
+        const inputPorcentagem = document.querySelector('#porcentagem').value;
+        const resultado = document.querySelector('#resultado');
+
+        const valorResultado = inputValor * inputPorcentagem;
+
+        resultado.innerHTML = `${valorResultado.toFixed(2)}`;
+    }
 }
-
 
 document.addEventListener('keydown', (event) => {
     if (event.keyCode === 13) {
