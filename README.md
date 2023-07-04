@@ -10,5 +10,5 @@
 <br>
  
  
-<h1>Este projeto pode ser visto aqui  <a href='https://luizh3nr1que.github.io/pagina-restaurante/'>aqui</a></h1>
+<h1>Este projeto pode ser visto aqui  <a href='https://luizh3nr1que.github.io/calculadora-gorjeta/'>aqui</a></h1>
 
