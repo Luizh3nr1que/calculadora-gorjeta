@@ -1,7 +1,7 @@
 function calcular() {
     const inputValor = document.querySelector('#valor');
 
-    if (inputValor.length == null) {
+    if (inputValor.value === '') {
         const resultado = document.querySelector('#resultado').innerHTML = 'NaN';
     } else {
 
