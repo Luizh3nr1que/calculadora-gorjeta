@@ -119,8 +119,13 @@ body {
 }
 
 
-@media screen and (max-width:439px) {
+@media screen and (max-width:441px) {
     .buttonRes {
         padding: 0px 60px 0px 60px;
     }
+
+    .porcentagem {
+        margin-top: 15px;
+    }
+
 }
